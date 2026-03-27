@@ -1,10 +1,14 @@
-public class sample{
+package Cl_27_03;
+
+/* Cl_27_03_2026 */
+public class sample {   
     public static void main(String[] args) {
-        Fraccion f = new Fraccion(1, 2);
-        Fraccion f_1 = new Fraccion(1 ,4);
         
-        Fraccion f_final = f.division(f_1);
-        System.out.println(f_final);
+        Par<String, Integer> p1 = new Par<>("Edad", 25);
+
+        System.out.println(p1.getPrimero());
+        System.out.println(p1.getSegundo());
+
     }
-    
 }
+
